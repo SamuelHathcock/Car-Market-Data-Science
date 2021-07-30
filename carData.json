@@ -1,0 +1,82 @@
+[
+ {
+  "title": "Ford F150 XLT Super Crew Cab",
+  "year": "2011",
+  "make": "ford",
+  "model": "f150",
+  "odometer": "48577",
+  "paintcolor": "grey",
+  "titlestatus": "clean",
+  "price": "$26,995"
+ },
+ {
+  "title": "2020 ram 2500 Cummins Night Edition loaded as new!",
+  "year": "2020",
+  "make": "dodge",
+  "model": "ram",
+  "odometer": "7950",
+  "paintcolor": "?",
+  "titlestatus": "clean",
+  "price": "$81,500"
+ },
+ {
+  "title": "2021 RAM 1500 E TORQUE",
+  "year": "2021",
+  "make": "ram",
+  "model": "1500",
+  "odometer": "492",
+  "paintcolor": "?",
+  "titlestatus": "lien",
+  "price": "$68,500"
+ },
+ {
+  "title": "KIA Optima",
+  "year": "2016",
+  "make": "kia",
+  "model": "optima",
+  "odometer": "67500",
+  "paintcolor": "silver",
+  "titlestatus": "clean",
+  "price": "$15,995"
+ },
+ {
+  "title": "2012 Jeep Liberty sport very low miles",
+  "year": "2012",
+  "make": "jeep",
+  "model": "liberty",
+  "odometer": "99981",
+  "paintcolor": "white",
+  "titlestatus": "salvage",
+  "price": "$6,950"
+ },
+ {
+  "title": "1999 Ford E350 converted Grooming shuttle bus *ready to go*",
+  "year": "1999",
+  "make": "ford",
+  "model": "e350",
+  "odometer": "167000",
+  "paintcolor": "white",
+  "titlestatus": "clean",
+  "price": "$13,500"
+ },
+ {
+  "title": "2008 Jeep Rubicon Unlimited and Matching Off Road Trailer",
+  "year": "2008",
+  "make": "jeep",
+  "model": "wrangler",
+  "odometer": "180000",
+  "paintcolor": "yellow",
+  "titlestatus": "clean",
+  "price": "$32,500"
+ },
+ {
+  "title": "1999 Lexus ES300 Coach Edition",
+  "year": "1999",
+  "make": "lexus",
+  "model": "es300",
+  "odometer": "147000",
+  "paintcolor": "?",
+  "titlestatus": "clean",
+  "price": "$5,450"
+ }
+]
