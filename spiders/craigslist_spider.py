@@ -1,10 +1,12 @@
 """Craigslist Spider"""
 from bs4 import BeautifulSoup
 import requests
+import re
 
 class craig():
 
     def __init__(self):
+        #TODO: get more headers for use and put in better format than below
         self.headers = {
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
         'Accept-Encoding': 'gzip, deflate, br',
@@ -23,20 +25,23 @@ class craig():
         'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
         }
         self.url = 'https://phoenix.craigslist.org/d/cars-trucks-by-owner/search/cto?postal=85249&search_distance=50'
-
-
+        
+        try:
+            with open("spiders/car_manufacturers.txt", 'r') as file:
+                self.manfac_list = [l.strip() for l in file.readlines()]
+        except:
+            print("Missing file 'car_manufacturers.txt'")
+            exit()
 
     def parse(self):
         source = requests.get(self.url, headers=self.headers)
         soup = BeautifulSoup(source.text, 'html.parser')
         links = soup.findAll('a', class_='result-image gallery')
         print('TTTTTTTTTTTTTTTTTTT') 
-
+        
         #Filtering a elements for the link text itself, which is under 'href'
         for i in range(len(links)):
            links[i] = links[i]['href']
-        
-        # print(len(links), "\n")
 
         for i in range(0, len(links)):
             print('\n', links[i])
@@ -47,10 +52,10 @@ class craig():
     
             #Finding car properties by parsing the spans and returning as dict.
             car_properties = self.parse_spans(attributes[1])
-            self.make_year_make_model(attributes[0].text)
+            self.get_year_make_model(attributes[0].text)
+
             dicc = {
             'title': car_soup.find('span', id="titletextonly").text,
-            # 'year_make_model': self.make_year_make_model(attributes[0].text),
             'year': self.year,
             'make': self.make,
             'model': self.model,
@@ -74,35 +79,73 @@ class craig():
             if (len(arr) == 1): dicc.update({'odometer': 'rolledover'})
             else: dicc.update({arr[0]: arr[1]})
         return dicc
-
-    def make_year_make_model(self, attribute):
+ 
+    def get_year_make_model(self, attribute):
         attribute = self.clean(attribute)
-        arr = attribute.split(' ')
-        #TODO: add try catch here in case len(arr) < 3
-        self.year = arr[0]
-        self.make = arr[1]
-        self.model = arr[2]
-
+        arr = attribute.split(' ') 
+        arrLen = len(arr)
+        try:
+            self.year = re.findall('(\d{4})', attribute)[0]
+        except:
+            self.year = None
+        try:
+            make = ''
+            self.make = None
+            for m in self.manfac_list:
+                match = re.findall(m, attribute)
+                if len(match) != 0:
+                    make = match[0]
+                    if make == 'chevy':      self.make = 'chevrolet'
+                    elif make == 'corvette': self.make = 'chevrolet'
+                    else:                    self.make = make
+                    break
+        except:
+            self.make = None
+        try:
+            self.model = arr[2]
+        except:
+            self.model = None
+        
     def get_odometer(self, car_properties: dict):
         if 'odometer' in car_properties:
-            return car_properties['odometer']
-        return '?'
+            if car_properties['odometer'] == 'rolledover':
+                return -1
+            return int(car_properties['odometer'])
+        return None
 
     def get_paint_color(self, car_properties: dict):
         if 'paintcolor' in car_properties:
             return car_properties['paintcolor']
-        return '?'
+        return None
 
     def get_title_status(self, car_properties: dict):
         if 'titlestatus' in car_properties:
             return car_properties['titlestatus']
-        return '?'
+        return None
 
-    def clean(self, html: str):
-        temp = html
+    def clean(self, dirty_string: str):
+        temp = dirty_string.strip().lower()
         temp = temp.replace('\n', '')
+        print('Clean attribute: ' + temp)
+        # temp = re.sub('[!#^@.', '', temp)
         return temp
 
 
 if __name__ == "__main__":  
     craig = craig()
+    text = "2017 infiniti q50"
+    # with open("spiders/car_manufacturers.txt", 'r') as file:
+    #     manfacs = [l.strip() for l in file.readlines()]
+    # # print(manfacs)
+    # make = ''
+    # for m in manfacs:
+    #     # print(m)
+    #     match = re.findall(m, text)
+    #     # print(match, '\n')
+    #     if len(match) != 0:
+    #         make = match[0]
+    #         print('!!! ' + make + ' !!!')
+    #         break
+    # print(re.findall('ford', text))
+
+

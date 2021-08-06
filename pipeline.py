@@ -4,6 +4,7 @@ import time
 from os.path import exists
 import os
 import sqlite3
+
 """
 This program will be used to process the data recieved from spiders
 and write this information to a JSON file and a database.
@@ -23,10 +24,13 @@ class pipeline():
         self.create_conn()
         self.create_table()        
 
+        SCRAPE_CAP = 200
+        scrape_count = 0
         for data in self.craig.parse():
             self.writeJSON(data, file_name="carData.json")
             self.store_db(data)
-            time.sleep(1)
+            if scrape_count == SCRAPE_CAP: break
+            time.sleep(.5)
 
     def writeJSON(self, data: dict, file_name="carData.json"):
         with open(file_name, mode='r') as f2:
