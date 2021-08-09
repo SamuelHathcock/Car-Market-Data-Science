@@ -1,4 +1,6 @@
-from spiders.craigslist_spider import craig
+from pipeline import pipeline
 
-# craig = craig()
+import spiders
 
+# pp = pipeline()
+# pp.output()

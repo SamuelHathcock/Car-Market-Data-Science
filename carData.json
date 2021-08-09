@@ -130,16 +130,6 @@
   "price": "$2,700"
  },
  {
-  "title": "2020 Tesla Model S Performance (Raven)",
-  "year": "2020",
-  "make": "tesla",
-  "model": "model",
-  "odometer": 14500,
-  "paintcolor": "grey",
-  "titlestatus": "clean",
-  "price": "$95,000"
- },
- {
   "title": "2021 Ram 1500 Laramie 4x4 ETorque",
   "year": "2021",
   "make": "dodge",
@@ -148,16 +138,6 @@
   "paintcolor": null,
   "titlestatus": "lien",
   "price": "$65,500"
- },
- {
-  "title": "03 C5 Corvette Coupe",
-  "year": "2003",
-  "make": "chevrolet",
-  "model": null,
-  "odometer": 51600,
-  "paintcolor": "silver",
-  "titlestatus": "clean",
-  "price": "$19,500"
  },
  {
   "title": "2014 Honda Civic For Sale",
@@ -177,7 +157,7 @@
   "odometer": 16800,
   "paintcolor": "white",
   "titlestatus": "clean",
-  "price": "$38,500"
+  "price": "$37,800"
  },
  {
   "title": "2015 Land Rover LR4- With Warranty",
@@ -187,7 +167,7 @@
   "odometer": 69000,
   "paintcolor": "blue",
   "titlestatus": "clean",
-  "price": "$35,500"
+  "price": "$32,750"
  },
  {
   "title": "2015 BMW I3 BEV",
@@ -237,7 +217,7 @@
   "odometer": 120000,
   "paintcolor": "black",
   "titlestatus": "clean",
-  "price": "$6,450"
+  "price": "$5,950"
  },
  {
   "title": "2006 GMC SIERRA 1500 CREW CAB 4X4 WITH ONLY 76,000 MILES",
@@ -250,14 +230,104 @@
   "price": "$19,000"
  },
  {
-  "title": "2010 Chevy Impala (silver police )",
-  "year": "2010",
-  "make": "chevrolet",
-  "model": "chevy",
-  "odometer": 200000,
+  "title": "2008 GMC 2500HD Duramax diesel 4x4",
+  "year": "2008",
+  "make": "gm",
+  "model": "sierra",
+  "odometer": 161000,
+  "paintcolor": null,
+  "titlestatus": "clean",
+  "price": "$31,500"
+ },
+ {
+  "title": "2006 GMC SIERRA 1500 CREW CAB 4X4 WITH ONLY 76,000 MILES",
+  "year": "2006",
+  "make": "gm",
+  "model": "sierra",
+  "odometer": 76000,
+  "paintcolor": "white",
+  "titlestatus": "clean",
+  "price": "$19,000"
+ },
+ {
+  "title": "2019 Acura TLX A-Spec V6 SH-AWD",
+  "year": "2019",
+  "make": "acura",
+  "model": "tlx",
+  "odometer": 16800,
+  "paintcolor": "white",
+  "titlestatus": "clean",
+  "price": "$37,800"
+ },
+ {
+  "title": "2012 Jeep Liberty sport very low miles",
+  "year": "2012",
+  "make": "jeep",
+  "model": "liberty",
+  "odometer": 99981,
+  "paintcolor": "white",
+  "titlestatus": "salvage",
+  "price": "$6,950"
+ },
+ {
+  "title": "2008 GMC 2500HD Duramax diesel 4x4",
+  "year": "2008",
+  "make": "gm",
+  "model": "sierra",
+  "odometer": 163000,
+  "paintcolor": null,
+  "titlestatus": "clean",
+  "price": "$29,800"
+ },
+ {
+  "title": "2015 Dodge Ram 1500 4x4",
+  "year": "2015",
+  "make": "dodge",
+  "model": "ram",
+  "odometer": 75000,
+  "paintcolor": "silver",
+  "titlestatus": "lien",
+  "price": "$34,000"
+ },
+ {
+  "title": "2006 GMC SIERRA 1500 CREW CAB 4X4 WITH ONLY 76,000 MILES",
+  "year": "2006",
+  "make": "gm",
+  "model": "sierra",
+  "odometer": 76000,
+  "paintcolor": "white",
+  "titlestatus": "clean",
+  "price": "$19,000"
+ },
+ {
+  "title": "1999 Accord EX - Clean",
+  "year": "1999",
+  "make": "honda",
+  "model": "accord",
+  "odometer": 153000,
   "paintcolor": "silver",
   "titlestatus": "clean",
-  "price": "$4,000"
+  "price": "$4,900"
+ },
+ {
+  "title": "2013 Chevy Suburban",
+  "year": "2013",
+  "make": "chevrolet",
+  "model": "suburban",
+  "odometer": 54209,
+  "paintcolor": "brown",
+  "titlestatus": "clean",
+  "price": "$28,000"
+ },
+ {
+  "title": "2013 Audi A7 Prestige Fully Loaded",
+  "year": "2013",
+  "make": "audi",
+  "model": "a7",
+  "odometer": 119700,
+  "paintcolor": null,
+  "titlestatus": "clean",
+  "price": "$22,200"
  },
  {
   "title": "2011 Hyundai Elantra",
@@ -268,6 +338,36 @@
   "paintcolor": null,
   "titlestatus": "salvage",
   "price": "$3,800"
+ },
+ {
+  "title": "2015 GMC 1500 SLE",
+  "year": "2015",
+  "make": "gm",
+  "model": "sierra",
+  "odometer": 70300,
+  "paintcolor": "grey",
+  "titlestatus": "clean",
+  "price": "$31,000"
+ },
+ {
+  "title": "2011 Toyota Corolla S",
+  "year": "2011",
+  "make": "toyota",
+  "model": "corolla",
+  "odometer": 88027,
+  "paintcolor": "grey",
+  "titlestatus": "clean",
+  "price": "$9,500"
+ },
+ {
+  "title": "2006 Toyota Sienna XLE LTD  only 76k mi les  clean carfax no accident",
+  "year": "2006",
+  "make": "toyota",
+  "model": "sienna",
+  "odometer": 76665,
+  "paintcolor": "green",
+  "titlestatus": "clean",
+  "price": "$10,500"
  },
  {
   "title": "2021 Silverado LTZ 6.2L Max Trailer",
@@ -300,16 +400,6 @@
   "price": "$52,000"
  },
  {
-  "title": "2020 RAM REBEL 4x4",
-  "year": "2020",
-  "make": "ram",
-  "model": "1500",
-  "odometer": 12100,
-  "paintcolor": "black",
-  "titlestatus": "clean",
-  "price": "$59,000"
- },
- {
   "title": "2019 BMW X3 -12K miles",
   "year": "2019",
   "make": "bmw",
@@ -330,34 +420,24 @@
   "price": "$16,500"
  },
  {
-  "title": "2002 Lexus GS430",
-  "year": "2002",
-  "make": "lexus",
-  "model": "gs430",
-  "odometer": 170000,
-  "paintcolor": "black",
+  "title": "2006 WRX TR",
+  "year": "2006",
+  "make": "subaru",
+  "model": "wrx",
+  "odometer": 156000,
+  "paintcolor": "white",
   "titlestatus": "clean",
-  "price": "$5,750"
+  "price": "$8,500"
  },
  {
-  "title": "2002 Lexus GS430",
-  "year": "2002",
-  "make": "lexus",
-  "model": "gs430",
-  "odometer": 170000,
-  "paintcolor": "black",
-  "titlestatus": "clean",
-  "price": "$5,750"
- },
- {
-  "title": "Excellent Condition 2013 Toyota Highlander Limited",
+  "title": "Reduced Excellent Condition 2013 Toyota Highlander Limited",
   "year": "2013",
   "make": "toyota",
   "model": "highlander",
   "odometer": 84000,
   "paintcolor": "white",
   "titlestatus": "clean",
-  "price": "$24,999"
+  "price": "$23,999"
  },
  {
   "title": "2008 Chevrolet K 2500 HD Silverado",
@@ -394,7 +474,7 @@
   "year": "2015",
   "make": "chevrolet",
   "model": "silverado",
-  "odometer": 9588,
+  "odometer": 9603,
   "paintcolor": "white",
   "titlestatus": "clean",
   "price": "$58,500"
@@ -440,16 +520,6 @@
   "price": "$12,800"
  },
  {
-  "title": "2017 Honda CR-V 4DSW",
-  "year": "2017",
-  "make": "honda",
-  "model": "cr-v",
-  "odometer": 57700,
-  "paintcolor": "silver",
-  "titlestatus": "clean",
-  "price": "$21,000"
- },
- {
   "title": "1998 Chevy Silverado Extended Cab",
   "year": "1998",
   "make": "chevrolet",
@@ -470,16 +540,6 @@
   "price": "$2,500"
  },
  {
-  "title": "2003 f250",
-  "year": "2003",
-  "make": "ford",
-  "model": "f-250",
-  "odometer": 290000,
-  "paintcolor": "red",
-  "titlestatus": "clean",
-  "price": "$3,250"
- },
- {
   "title": "Lexus GX460",
   "year": "2015",
   "make": "lexus",
@@ -488,6 +548,16 @@
   "paintcolor": "grey",
   "titlestatus": "clean",
   "price": "$41,900"
+ },
+ {
+  "title": "Ford Raptor",
+  "year": "2018",
+  "make": "ford",
+  "model": "ford",
+  "odometer": 45000,
+  "paintcolor": "grey",
+  "titlestatus": "clean",
+  "price": "$73,000"
  },
  {
   "title": "2015 Mazada CX-5 Grand Touring",
@@ -500,6 +570,16 @@
   "price": "$15,750"
  },
  {
+  "title": "2016 Ford Fiesta ST",
+  "year": "2016",
+  "make": "ford",
+  "model": "fiesta",
+  "odometer": 56000,
+  "paintcolor": null,
+  "titlestatus": "lien",
+  "price": "$15,000"
+ },
+ {
   "title": "LOADED & LIFTED 2019 Ram 1500 Rebel (+EXTRAS)",
   "year": "2019",
   "make": "ram",
@@ -510,14 +590,24 @@
   "price": "$52,500"
  },
  {
-  "title": "2015 Lexus GS 350 F Sport",
-  "year": "2015",
-  "make": "lexus",
-  "model": "gs",
-  "odometer": 58862,
+  "title": "1997 Chev Tahoe",
+  "year": "1997",
+  "make": "chevrolet",
+  "model": "tahoe",
+  "odometer": 165300,
+  "paintcolor": "green",
+  "titlestatus": "clean",
+  "price": "$4,800"
+ },
+ {
+  "title": "2005 Honda Accord Hybrid Clean!",
+  "year": "2005",
+  "make": "honda",
+  "model": "accord",
+  "odometer": 180,
   "paintcolor": "silver",
   "titlestatus": "clean",
-  "price": "$27,999"
+  "price": "$5,000"
  },
  {
   "title": "2005 Nissan titan",
@@ -528,6 +618,16 @@
   "paintcolor": null,
   "titlestatus": "clean",
   "price": "$7,500"
+ },
+ {
+  "title": "2006 Nissan Altima",
+  "year": "2006",
+  "make": "nissan",
+  "model": "altima",
+  "odometer": 195000,
+  "paintcolor": null,
+  "titlestatus": "clean",
+  "price": "$2,900"
  },
  {
   "title": "Dodge Durango",
@@ -630,6 +730,16 @@
   "price": "$22,500"
  },
  {
+  "title": "2006 Chevy Silverado",
+  "year": "2006",
+  "make": "chevrolet",
+  "model": "silverado",
+  "odometer": 240000,
+  "paintcolor": "white",
+  "titlestatus": "clean",
+  "price": "$6,500"
+ },
+ {
   "title": "2008 Dodge Ram 1500 4WD 5.7L",
   "year": "2008",
   "make": "dodge",
@@ -638,16 +748,6 @@
   "paintcolor": "black",
   "titlestatus": "clean",
   "price": "$15,500"
- },
- {
-  "title": "jeep Wrangler sport",
-  "year": "2021",
-  "make": "jeep",
-  "model": "wrangler",
-  "odometer": 6500,
-  "paintcolor": "yellow",
-  "titlestatus": "clean",
-  "price": "$60,000"
  },
  {
   "title": "2019 Honda Accord Sport",
@@ -698,16 +798,6 @@
   "paintcolor": "black",
   "titlestatus": "clean",
   "price": "$35,000"
- },
- {
-  "title": "2020 Chevy Bolt EV Premiere",
-  "year": "2020",
-  "make": "chevrolet",
-  "model": "bolt",
-  "odometer": 3300,
-  "paintcolor": "white",
-  "titlestatus": "clean",
-  "price": "$31,000"
  },
  {
   "title": "2018 Ford F-250 Superduty XLT 4x4",
@@ -768,405 +858,5 @@
   "paintcolor": null,
   "titlestatus": "clean",
   "price": "$4,200"
- },
- {
-  "title": "1998 Acura SLX 4x4 SUV",
-  "year": "1998",
-  "make": "acura",
-  "model": "slx",
-  "odometer": 238109,
-  "paintcolor": "green",
-  "titlestatus": "clean",
-  "price": "$4,900"
- },
- {
-  "title": "1982 CJ-7",
-  "year": "1982",
-  "make": "jeep",
-  "model": "cj-7",
-  "odometer": -1,
-  "paintcolor": "brown",
-  "titlestatus": "clean",
-  "price": "$10,000"
- },
- {
-  "title": "2007 Pontiac Vibe",
-  "year": "2007",
-  "make": "pontiac",
-  "model": "vibe",
-  "odometer": 180000,
-  "paintcolor": "silver",
-  "titlestatus": "clean",
-  "price": "$4,500"
- },
- {
-  "title": "2018 Ford F-250 Superduty XLT 4x4",
-  "year": "2018",
-  "make": "ford",
-  "model": "f250",
-  "odometer": 71425,
-  "paintcolor": null,
-  "titlestatus": "clean",
-  "price": "$44,500"
- },
- {
-  "title": "Honda Civic 2008 coupe",
-  "year": "2008",
-  "make": "honda",
-  "model": "civic",
-  "odometer": 130000,
-  "paintcolor": null,
-  "titlestatus": "clean",
-  "price": "$6,500"
- },
- {
-  "title": "2015 Subaru WRX Limited - LIKE NEW",
-  "year": "2015",
-  "make": "subaru",
-  "model": "wrx",
-  "odometer": 71000,
-  "paintcolor": "grey",
-  "titlestatus": "clean",
-  "price": "$26,000"
- },
- {
-  "title": "2018 BMW M5 M Sport",
-  "year": "2018",
-  "make": "bmw",
-  "model": "m5",
-  "odometer": 20059,
-  "paintcolor": "blue",
-  "titlestatus": "clean",
-  "price": "$90,000"
- },
- {
-  "title": "2010 F150 - For Sale by Owner",
-  "year": "2010",
-  "make": null,
-  "model": "f150",
-  "odometer": 100000,
-  "paintcolor": "white",
-  "titlestatus": "clean",
-  "price": "$15,000"
- },
- {
-  "title": "1999 F550 FORD",
-  "year": "1999",
-  "make": "ford",
-  "model": "f550",
-  "odometer": 162000,
-  "paintcolor": "yellow",
-  "titlestatus": "clean",
-  "price": "$25,000"
- },
- {
-  "title": "2005 Ford F-150",
-  "year": "2005",
-  "make": "ford",
-  "model": "f-150",
-  "odometer": 100000,
-  "paintcolor": "white",
-  "titlestatus": "clean",
-  "price": "$11,000"
- },
- {
-  "title": "2009 Ford focus SE",
-  "year": "2009",
-  "make": "ford",
-  "model": "focus",
-  "odometer": 118000,
-  "paintcolor": "white",
-  "titlestatus": "clean",
-  "price": "$6,000"
- },
- {
-  "title": "2007 Mustang Premium",
-  "year": "2007",
-  "make": "ford",
-  "model": "mustang",
-  "odometer": 197000,
-  "paintcolor": "black",
-  "titlestatus": "clean",
-  "price": "$5,900"
- },
- {
-  "title": "2005 Dodge Ram 3500 quad cab SLT 4x4 Diesel",
-  "year": "2005",
-  "make": "dodge",
-  "model": "ram",
-  "odometer": 196000,
-  "paintcolor": "black",
-  "titlestatus": "clean",
-  "price": "$22,500"
- },
- {
-  "title": "2010 Toyota Prius - Pearl White, Tan interior. Clean Title.",
-  "year": "2010",
-  "make": "toyota",
-  "model": "prius",
-  "odometer": 174000,
-  "paintcolor": "white",
-  "titlestatus": "clean",
-  "price": "$10,000"
- },
- {
-  "title": "2013 Scion Frs Turbo",
-  "year": "2013",
-  "make": null,
-  "model": "fr-s",
-  "odometer": 81504,
-  "paintcolor": "grey",
-  "titlestatus": "rebuilt",
-  "price": "$14,000"
- },
- {
-  "title": "2002 Ford f250 7.3 diesel",
-  "year": "2002",
-  "make": "ford",
-  "model": "f250",
-  "odometer": 211578,
-  "paintcolor": "white",
-  "titlestatus": "rebuilt",
-  "price": "$17,000"
- },
- {
-  "title": "2015 Corvette Stingray C7 Z51",
-  "year": "2015",
-  "make": "chevrolet",
-  "model": "corvette",
-  "odometer": 39000,
-  "paintcolor": "red",
-  "titlestatus": "clean",
-  "price": "$49,999"
- },
- {
-  "title": "pickup",
-  "year": "2014",
-  "make": "ford",
-  "model": "f-150",
-  "odometer": 64444,
-  "paintcolor": null,
-  "titlestatus": "clean",
-  "price": "$18,900"
- },
- {
-  "title": "1986 chevy c30",
-  "year": "1986",
-  "make": "chevrolet",
-  "model": "c30",
-  "odometer": 120000,
-  "paintcolor": "red",
-  "titlestatus": "clean",
-  "price": "$8,700"
- },
- {
-  "title": "2016 Ford F-150 Supercrew Lariat 4x4",
-  "year": "2016",
-  "make": "ford",
-  "model": "f-150",
-  "odometer": 95000,
-  "paintcolor": "black",
-  "titlestatus": "clean",
-  "price": "$29,990"
- },
- {
-  "title": "2014 FIAT 500L Turbo excellent condition",
-  "year": "2014",
-  "make": null,
-  "model": "500l",
-  "odometer": 95000,
-  "paintcolor": "white",
-  "titlestatus": "rebuilt",
-  "price": "$5,000"
- },
- {
-  "title": "1969 Chevrolet Camaro 427 Big Block 5 Speed Manual Sale or Trade",
-  "year": "1969",
-  "make": "chevrolet",
-  "model": null,
-  "odometer": 1500,
-  "paintcolor": "orange",
-  "titlestatus": "clean",
-  "price": "$59,900"
- },
- {
-  "title": "2014 Corvette CP",
-  "year": "2014",
-  "make": "chevrolet",
-  "model": "corvette",
-  "odometer": 35000,
-  "paintcolor": "white",
-  "titlestatus": "clean",
-  "price": "$49,250"
- },
- {
-  "title": "87 El Camino Choo Choo",
-  "year": "1987",
-  "make": "chevrolet",
-  "model": "el",
-  "odometer": 60000,
-  "paintcolor": "white",
-  "titlestatus": "clean",
-  "price": "$21,500"
- },
- {
-  "title": "2001 Ford F150 Supercrew 4wd w/topper",
-  "year": "2001",
-  "make": "ford",
-  "model": "f-150",
-  "odometer": 252000,
-  "paintcolor": "white",
-  "titlestatus": "clean",
-  "price": "$6,500"
- },
- {
-  "title": "2014 Maserati Grandturismo",
-  "year": "2014",
-  "make": null,
-  "model": "granturismo",
-  "odometer": 19550,
-  "paintcolor": "blue",
-  "titlestatus": "salvage",
-  "price": "$33,000"
- },
- {
-  "title": "1994 Lincoln town car",
-  "year": "1994",
-  "make": "lincoln",
-  "model": "town",
-  "odometer": 60000,
-  "paintcolor": null,
-  "titlestatus": "clean",
-  "price": "$8,500"
- },
- {
-  "title": "2015 Toyota Corolla S",
-  "year": "2015",
-  "make": "toyota",
-  "model": "corolla",
-  "odometer": 80000,
-  "paintcolor": "red",
-  "titlestatus": "clean",
-  "price": "$13,999"
- },
- {
-  "title": "1994 Lincoln town car",
-  "year": "1994",
-  "make": "lincoln",
-  "model": "town",
-  "odometer": 60000,
-  "paintcolor": null,
-  "titlestatus": "clean",
-  "price": "$8,500"
- },
- {
-  "title": "Chevy Tahoe LTZ Sport",
-  "year": "2011",
-  "make": "chevrolet",
-  "model": "tahoe",
-  "odometer": 158000,
-  "paintcolor": "black",
-  "titlestatus": "clean",
-  "price": "$17,500"
- },
- {
-  "title": "1994 Lincoln town car 60.000 original miles one of a kind",
-  "year": "1994",
-  "make": "lincoln",
-  "model": "town",
-  "odometer": 60000,
-  "paintcolor": null,
-  "titlestatus": "clean",
-  "price": "$6,800"
- },
- {
-  "title": "2004 mustang 40th anniversary Mach 1",
-  "year": "2004",
-  "make": null,
-  "model": "mach",
-  "odometer": 107000,
-  "paintcolor": null,
-  "titlestatus": "clean",
-  "price": "$12,000"
- },
- {
-  "title": "Yukon Denali XL",
-  "year": "2020",
-  "make": "gm",
-  "model": "yukon",
-  "odometer": 33500,
-  "paintcolor": "silver",
-  "titlestatus": "rebuilt",
-  "price": "$46,500"
- },
- {
-  "title": "F150 SuperCrew 4x4 Excellent Condition",
-  "year": "2018",
-  "make": "ford",
-  "model": "f150",
-  "odometer": 71000,
-  "paintcolor": "white",
-  "titlestatus": "clean",
-  "price": "$32,500"
- },
- {
-  "title": "2004 Honda Pilot",
-  "year": "2004",
-  "make": "honda",
-  "model": "pilot",
-  "odometer": 160000,
-  "paintcolor": null,
-  "titlestatus": "clean",
-  "price": "$3,000"
- },
- {
-  "title": "1998 Dodge Viper GTS / 1-Owner / 25k Miles / MINT!",
-  "year": "1998",
-  "make": "dodge",
-  "model": "viper",
-  "odometer": 25100,
-  "paintcolor": "silver",
-  "titlestatus": "clean",
-  "price": "$75,000"
- },
- {
-  "title": "2007 Dodge Ram 1500 Crew Cab 4X4",
-  "year": "2007",
-  "make": "dodge",
-  "model": "ram",
-  "odometer": 169000,
-  "paintcolor": null,
-  "titlestatus": "clean",
-  "price": "$12,900"
- },
- {
-  "title": "2013 Volkswagen Beetle TURBO",
-  "year": "2013",
-  "make": null,
-  "model": "beetle",
-  "odometer": 89551,
-  "paintcolor": "black",
-  "titlestatus": "clean",
-  "price": "$10,950"
- },
- {
-  "title": "2000 Ford xlt f350 diesel 4\u00d74",
-  "year": "2000",
-  "make": "ford",
-  "model": "f350",
-  "odometer": -1,
-  "paintcolor": "white",
-  "titlestatus": "clean",
-  "price": "$16,000"
- },
- {
-  "title": "1968 corvette convertible 327 4 speed",
-  "year": "1968",
-  "make": "chevrolet",
-  "model": "corvette",
-  "odometer": 60000,
-  "paintcolor": null,
-  "titlestatus": "clean",
-  "price": "$28,000"
  }
 ]

@@ -25,7 +25,6 @@ class craig():
         'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
         }
         self.url = 'https://phoenix.craigslist.org/d/cars-trucks-by-owner/search/cto?postal=85249&search_distance=50'
-        
         try:
             with open("spiders/car_manufacturers.txt", 'r') as file:
                 self.manfac_list = [l.strip() for l in file.readlines()]
@@ -34,10 +33,10 @@ class craig():
             exit()
 
     def parse(self):
+        print('Parse Start')
         source = requests.get(self.url, headers=self.headers)
         soup = BeautifulSoup(source.text, 'html.parser')
         links = soup.findAll('a', class_='result-image gallery')
-        print('Parsing start') 
         
         #Filtering a elements for the link text itself, which is under 'href'
         for i in range(len(links)):
