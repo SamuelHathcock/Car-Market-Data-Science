@@ -38,7 +38,7 @@ class pipeline():
             load.append(data)
         with open(file_name, "w", encoding='utf-8') as f3:
             json.dump(load, f3, indent=1)
-
+    
     def create_conn(self):
         self.conn = sqlite3.connect("carData.db")
         self.curr = self.conn.cursor()
@@ -55,11 +55,6 @@ class pipeline():
             titlestatus text,
             price text
         )""")
-
-    # def process_item(self, item):
-    #     self.store_db(item)
-    #     print("Pipelines = " + item['title'] + " " + item['price'] )
-    #     return item
 
     def store_db(self, item):
         self.curr.execute("""INSERT into cars values(?,?,?,?,?,?,?,?)""",(

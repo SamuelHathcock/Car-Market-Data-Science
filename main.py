@@ -2,5 +2,5 @@ from pipeline import pipeline
 
 import spiders
 
-# pp = pipeline()
-# pp.output()
+pp = pipeline()
+pp.output()
